@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All cases">
+    <test verbose="2" preserve-order="true" name="Sprints_Task">
+        <classes>
+            <class name="RegisterTestCase"/>
+            <class name="LoginTestCase"/>
+            <class name="SearchTestCase"/>
+            <class name="AddToCartTestCase"/>
+        </classes>
+    </test>
+</suite>
